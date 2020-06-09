@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000" >
+
+        <Button
+            android:id="@+id/buttonBack2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="Назад"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/mainMenu"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_marginBottom="500dp">
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:textColor="#ffffff"
+                android:text="Пробная глава" />
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mainMenu1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="425dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:text="в разработке" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mainMenu2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="350dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:text="в разработке" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mainMenu3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="275dp">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:text="в разработке" />
+    </LinearLayout>
+
+</RelativeLayout>
